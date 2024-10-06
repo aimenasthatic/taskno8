@@ -1,0 +1,194 @@
+nav{
+    display: flex;
+    /* justify-content: left; */
+    background-color: rgb(247, 242, 242);
+    /* background-image: url(./InteriorDesign_May2024_on-the-beach-13.jpg); */
+}
+.container{
+    gap: 90px;
+    margin-left: 350px;
+    display: flex; 
+     justify-content: space-between;
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+.container1 {
+    position: relative; /* Make sure the container is positioned relative for z-index to work */
+    overflow: hidden; /* Hide any overflow if necessary */
+    height: 800px;
+}
+
+.container1::before {
+    content: '';
+    position: absolute; /* Position absolutely within the container */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+    background-image: url('./InteriorDesign_CollectibleDesignFair-1024x768.jpg');
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-color: aliceblue;
+
+} 
+p{
+ color: green;
+ font-size: large;
+ font-weight: 800;
+ /* font-size: 30px; */
+
+}
+h1{
+    color: rgb(231, 223, 223);
+     /* font-size: 80px; */
+    gap: 20px;
+}
+.container3{
+ height: 90px;
+  /* background-color: rgb(243, 239, 239); */
+  width: 350px;
+  gap: 20px;
+  border-radius: 5px;
+  margin-left: 480px;
+  margin-top: 50px;
+}
+button{
+    border-radius: 5px;
+    /* width: 90px; */
+    height: 50px;
+}
+.container2{
+    text-align: center;
+    margin-top: 200px;
+}
+.container4{
+    background-color: aliceblue;
+    margin-left: 10px;
+    display: flex;
+
+}
+.img3{
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+    background-color: aliceblue;
+
+}
+.img2{
+    width: 23%;
+    height: 60%;
+    border-radius: 50%;
+    margin-left: 20px;
+        margin-top: 15px;
+        padding-top: 0;
+    background-color: aliceblue;
+
+   }
+.images{
+    margin-top: 25px;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+.card {
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    height: 350px;
+}
+.header {
+    background-color: rgb(255, 0, 0);
+    width: 400px;
+    height: 30px; /* Adjust the height as needed */
+ border-top-left-radius: 5px ;
+ border-top-right-radius: 5px ;
+}
+.content {
+   
+    padding: 20px;
+    background-color: white;
+    gap: 20px;
+}.img4{
+    width: 100%;
+    height: 800px;
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; 
+    top: 0;
+    left: 0;
+}
+
+.background-image {
+    position: relative;
+    background-image: url('./3+\ L-Shaped\ Room\ Layouts\ for\ Every\ Home\ Size\ and\ Style\ •\ 333+\ Inspiring\ Lifestyle\ Ideas.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-card {
+    background-color: rgba(255, 255,255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+}
+
+h2 {
+    margin: 0 0 10px;
+}
+
+p {
+    margin: 0 0 20px;
+}
+button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+.orange-button:hover{
+    background-color: orangered; 
+    color: aliceblue; 
+    border-radius: 5px;
+    width: 70px;
+}
+.card-img{
+    width: 310px;
+     height: 280px; 
+      border-radius: 5px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+footer{
+    background-color: rgb(39, 39, 39);
+    height: 400px;
+    width: auto;
+    display: flex;
+   justify-content: space-around;
+}
+.location{
+    width: 30px;
+    height: 30px;
+}
+ .icons{
+    margin-top: 125px;
+} 
+.history{
+    margin-top: 45px;
+}
+.store{
+    margin-top: 45px;
+}
+.contact{
+    margin-top: 45px;
+}
